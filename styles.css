@@ -16,7 +16,6 @@ body {
   background-color: hsl(218, 28%, 13%);
   font-family: "Open Sans", sans-serif;
   color: hsl(0, 0%, 100%);
-  width: 100vw;
 }
 
 .text-center {
@@ -337,6 +336,10 @@ i {
 }
 
 @media only screen and (min-width: 365px) {
+  header nav ul {
+    gap: 4em;
+    margin-right: 4em;
+  }
   .huddle-access {
     width: 45vw;
   }
