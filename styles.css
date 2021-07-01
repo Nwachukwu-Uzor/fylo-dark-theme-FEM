@@ -187,17 +187,18 @@ main h4 {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 1em;
+  gap: 0.5em;
   margin-top: 2em;
 }
 
-.huddle-access form input {
-  flex: 3;
+.huddle-access form button {
+  padding: 0.85em 3em;
+  box-sizing: border-box;
+  border-radius: 2em;
 }
 
-.huddle-access form input,
-.huddle-access form button {
-  padding: 0.85em 0.5em;
+.huddle-access form input {
+  padding: 0.85em 6em;
   box-sizing: border-box;
   border-radius: 2em;
 }
@@ -205,7 +206,6 @@ main h4 {
 .huddle-access form button {
   background-color: hsl(176, 68%, 64%);
   color: hsl(0, 0%, 100%);
-  flex: 1.85;
 }
 
 footer {
@@ -295,6 +295,14 @@ i {
     flex-flow: column wrap;
   }
 
+  .huddle-access form input,
+  .huddle-access form button {
+    padding: 0.7em 3em;
+    box-sizing: border-box;
+    border-radius: 2em;
+    width: 90%;
+  }
+
   .icon-description {
     flex-flow: column wrap;
   }
@@ -312,6 +320,7 @@ i {
   .huddle-access form {
     display: flex;
     flex-flow: column wrap;
+    gap: 1em;
   }
 
   .huddle-access form input,
