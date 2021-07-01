@@ -197,7 +197,7 @@ main h4 {
 
 .huddle-access form input,
 .huddle-access form button {
-  padding: 0.75em;
+  padding: 0.85em 0.5em;
   box-sizing: border-box;
   border-radius: 2em;
 }
