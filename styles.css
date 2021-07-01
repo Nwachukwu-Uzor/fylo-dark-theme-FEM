@@ -317,7 +317,6 @@ i {
   .huddle-access form input,
   .huddle-access form button {
     flex: 1;
-    width: 80%;
     margin: 0 auto;
   }
 }
