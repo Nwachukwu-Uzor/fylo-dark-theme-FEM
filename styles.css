@@ -205,7 +205,7 @@ main h4 {
 .huddle-access form button {
   background-color: hsl(176, 68%, 64%);
   color: hsl(0, 0%, 100%);
-  flex: 1;
+  flex: 1.5;
 }
 
 footer {
